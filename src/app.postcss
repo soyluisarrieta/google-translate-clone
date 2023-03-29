@@ -1,0 +1,19 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #20252C;
+}
+body::before {
+  content: '';
+  background: rgb(0 153 255/0.1);
+  filter: blur(100px);
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: -50px;
+  top: 100px;
+  z-index: -1;
+}
