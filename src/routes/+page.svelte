@@ -1,6 +1,8 @@
 <script>
   import SetLanguage from '../components/SetLanguage.svelte';
 
+  const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
+
   let SET_FROM_LANGUAGE = 'es';
   let SET_TO_LANGUAGE = 'en';
   let SET_FROM_TEXT = '';
