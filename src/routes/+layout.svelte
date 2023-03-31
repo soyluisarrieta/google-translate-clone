@@ -25,7 +25,7 @@
     <div class="flex items-center gap-3">
       <hr class="w-full border-b-px border-[#3c4654]" />
       <span class=" whitespace-nowrap font-light text-sm text-white/50">
-        Por SoyLuisArrieta con la ayuda de <a
+        Por SoyLuisArrieta & <a
           class="text-[#199afc]"
           href="https://midu.dev/"
           target="_blank"
